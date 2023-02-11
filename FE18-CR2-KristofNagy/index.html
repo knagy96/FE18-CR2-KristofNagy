@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weekly Planer</title>
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <nav class="navbar  p-0 navbar-dark bg-dark navbar-expand-lg bg-body-tertiary  ">
+        <div class="container-fluid  bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">MyPlanner</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Task</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-light" type="submit"><i class="fa fa-whatsapp" style="font-size:36px"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Image-->
+
+    <div id="carouselExample" class="carousel slide row col ">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/startup-g57e5ffdd6_1280.jpg" class="d-block w-100 h-20" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/dog-gc88967448_1280.jpg" class="d-block w-100 h-20" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/surfing-g102ebdd10_1920.jpg" class="d-block w-100 h-20" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--cards-->
+
+    <div class=" container mt-5  row-gap-2">
+        <div class="row row-cols-2">
+            <h3 class="col-10">Weeakly Task</h3>
+            <button class="col-2  rounded" id="sort">&#129043; Sort</button>
+        </div>
+
+        <div id="card">
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div>
+        <div class="bg-dark  d-flex justify-content-center">
+
+            <i class="fa fa-twitter-square" style="font-size:36px;color: white; margin: 5px;"></i>
+            <i class="fa fa-facebook-official" style="font-size:36px;color: white;margin: 5px;"></i>
+            <i class="fa fa-google" style="font-size:36px; color: white;margin: 5px;"></i>
+            <i class="fa fa-instagram" style="font-size:36px; color: white;margin: 5px;"></i>
+            <i class="fa fa-linkedin-square" style="font-size:36px; color: white;margin: 5px;"></i>
+            <i class="fa fa-github" style="font-size:36px; color: white;margin: 5px;"></i>
+
+        </div>
+    </div>
+    <div class="bg-dark  d-flex justify-content-center">
+        <p class="text-light" style="margin: 5px;">Sing up for Newsletter </p>
+        <input type="text" name="" id="" placeholder="Subscribe" style="width: 40rem;">
+        <button>Subscribe</button>
+    </div>
+    <div class="bg-dark  d-flex justify-content-center">
+        <p class="text-light" style="margin-top: 5px;">2023 Copyright: Kristof Nagy</p>
+    </div>
+    <script src="data.json"></script>
+    <script src="java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+
+</html>

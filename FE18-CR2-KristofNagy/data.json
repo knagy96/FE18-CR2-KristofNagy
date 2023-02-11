@@ -1,0 +1,81 @@
+let todos = `[{
+
+    "taskName": "Shopping",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}, {
+
+    "taskName": "Walk with the Dog",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}, {
+
+    "taskName": "Running",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}, {
+
+    "taskName": "Clean the apartment",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}, {
+
+    "taskName": "Video call with the Parents",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}, {
+
+    "taskName": "Clean the car",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}, {
+
+    "taskName": "Caffe with John Doe",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}, {
+
+    "taskName": "Cook",
+
+    "image": "images/planner.jpg",
+
+    "description": "Shop for weekly groceries at Billa and Hofer.",
+
+    "importance": 0
+
+}]`
